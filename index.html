@@ -9,10 +9,10 @@
 <body>
   <header>
     <nav>
-      <a class="text" href="#">Home</a>
-      <a class="text" href="#">Cardápio</a>
-      <a class="text" href="#">Sobre Nós</a>
-      <a class="text" href="#">Contato</a>
+      <a class="text" href="#home">Home</a>
+      <a class="text" href="#cardapio">Cardápio</a>
+      <a class="text" href="#aboutus">Sobre Nós</a>
+      <a class="text" href="#contact">Contato</a>
     </nav>
 
     
@@ -20,50 +20,128 @@
       <img class="imgHeader" src="./assets/3.jpg" alt="Foto de uma pizza e um fogo de fundo.">
       <h1 class="centertext">Bem-Vindo à Alessio's</h1>
       <p class="centertext">Saborosas pizzas feitas especialmente para você!</p>
-        
-      <div class="buttonalign">
-        <a class="button" href="#">Ver Cardápio</a>
-      </div>
+    
+      <a class="button" href="#cardapio">Ver Cardápio</a>
     </div>
     
   </header>
 
   <main>
-    <h1>Cardápio</h1>
+    <h1 id="cardapio" class="titleCenterMain">Cardápio</h1>
 
-    <div class="card">
-      <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
-      <h1>Pizza Margherita</h1>
-      <p>Molho de tomate, mussarela, manjericão fresco.</p>
-    </div>
+    <div class="gallery">
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Margherita</h1>
+        <p>Molho de tomate, mussarela, manjericão fresco.</p>
+      </div>
 
-    <div class="card">
-      <div class="maincard">
+      <div class="card">
         <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
         <h1>Pizza Pepperoni</h1>
         <p>Molho de tomate, pepperoni, queijo mussarela.</p>
       </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Quatro Queijos</h1>
+        <p>Molho de tomate, mussarela, parmesão, gorgonzola, provolone.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Calabresa</h1>
+        <p>Molho de tomate, calabresa, cebola, queijo mussarela.</p>
+      </div>
+      
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Vegetariana</h1>
+        <p>Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Frango com Catupiry</h1>
+        <p>Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.</p>
+      </div>
+
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Portuguesa</h1>
+        <p>Molho de tomate, presunto, ovos, cebola, azeitonas, queijo mussarela.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Supreme</h1>
+        <p>Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas, queijo mussarela.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Tropical</h1>
+        <p>Molho de tomate, presunto, abacaxi, queijo mussarela.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Marguerita Especial</h1>
+        <p>Molho de tomate, mussarela de búfalo, tomate fresco, manjericão, azeite de oliva.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Carne de Sol</h1>
+        <p>Molho de tomate, carne de sol desfiada, cebola roxa, queijo mussarela.</p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/2.jpg" alt="Foto de uma pizza no prato.">
+        <h1>Pizza Caprese</h1>
+        <p>Molho de tomate, tomate fresco, mussarela de búfalo, manjericão, azeite de oliva.</p>
+      </div>
     </div>
   </main>
 
-  <div>
-    <img src="./assets/1.jpg" alt="Foto Pizza">
-    <h1>Sobre Nós</h1>
-    <p>Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</p>
-  </div>
-
-  <div>
-    <h1>Contato</h1>
-    <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
-    <div>
-      <p>Endereço: Avenida Onze de Outubro, nº 123 Centro, Cidade Qualquer/RJ CEP: 12345-678</p>
-      <p>Telefone: (11) 5555-5555</p>
-      <p>E-mail: contato@alessios.pizza</p>
-      <p>Horário de Funcionamento: <br>Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
+  <div class="aboutus">
+    <img class="imgabout" src="./assets/1.jpg" alt="Foto Pizza">
+    <div class="gradient"></div>
+    <div class="textabout">
+      <h1 id="aboutus">Sobre Nós</h1>
+      <p>Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</p>
     </div>
-
-    <a href="#">Peça agora mesmo!</a>
   </div>
+
+  <div class="contact">
+    <h1 id="contact">Contato</h1>
+    <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
+
+    <address>
+      <p>
+        <strong>Endereço:</strong>
+        Avenida Onz de Outubro, nº 123 <br>
+        Centro, Cidade Qualquer/RJ CEP: 12345-678
+      </p>
+  
+      <div>
+        <p><strong>Telefone:</strong> (11) 5555-5555</p>
+  
+        <p>
+          <strong>E-mail:</strong>
+          <a href="mailto:contato@alessios.pizza">contato@alessios.pizza</a>
+        </p>
+      </div>
+  
+      <div>
+        <p><strong>Horário de Funcionamento:</strong></p>
+        <p>Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
+      </div>
+    </address>
+  </div>
+
+
   <footer>
     <p>&copy; 2024 Alessio's Pizzaria</p>
   </footer>
